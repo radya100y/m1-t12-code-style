@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 public class DepositCalculator {
-
+// Артем - ты все константы определил в UpperCase - видимо я пропустил этот момент в обучении
+// У меня замечаний нет.
     static final double RATE = 0.06;
     static final int MONTHS_AMOUNT = 12;
     static final int CALCULATE_SIMPLE_PERCENT = 1;
