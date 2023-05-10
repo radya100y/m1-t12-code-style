@@ -1,10 +1,8 @@
 import java.util.Scanner;
 
-public class DepositCalculator
-{
+public class DepositCalculator {
     double calculateComplexPercentFunction(double a, double y, int d) {
         double pay = a * Math.pow((1 + y / 12), 12 * d);
-
         return getRoundValue(pay, 2);
     }
     double calculateSimplePercentFunction(double doubleAmount, double doubleYearRate, int depositPeriod) {
@@ -12,7 +10,6 @@ public class DepositCalculator
     }
     double getRoundValue(double value, int places) {
         double scale = Math.pow(10, places);
-
         return Math.round(value * scale) / scale;
     }
 
